@@ -7,7 +7,6 @@ torchvision>=0.16.0
 
 # PaddlePaddle (CPU版本)
 paddlepaddle>=2.5.0
-paddleclas>=2.5.0
 
 # 可视化库
 matplotlib>=3.8.0
@@ -32,4 +31,3 @@ tifffile>=2023.8.0
 # 注意：GPU版本需要单独安装
 # GPU版本PyTorch: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 # GPU版本PaddlePaddle: pip install paddlepaddle-gpu
-EOF < /dev/null

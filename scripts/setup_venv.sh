@@ -8,7 +8,9 @@ echo "🚀 开始设置CNN可视化教学项目虚拟环境..."
 # 创建虚拟环境目录
 if [ ! -d "venv_linux" ]; then
     echo "📁 创建虚拟环境目录..."
-    python3 -m venv venv_linux
+    #python3 -m venv venv_linux
+    # linux要安装3.10
+    python3.10 -m venv venv_linux
 else
     echo "✅ 虚拟环境已存在"
 fi

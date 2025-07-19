@@ -1,5 +1,12 @@
 """Unified training script for CNN visualization using high-level APIs."""
 
+import sys
+import os
+from pathlib import Path
+
+# Add the parent directory to Python path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import hydra
 from omegaconf import DictConfig
 import pytorch_lightning as pl

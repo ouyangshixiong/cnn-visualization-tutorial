@@ -1,5 +1,12 @@
 """Model evaluation script for CNN visualization."""
 
+import sys
+import os
+from pathlib import Path
+
+# Add the parent directory to Python path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import hydra
 import pytorch_lightning as pl
 from omegaconf import DictConfig

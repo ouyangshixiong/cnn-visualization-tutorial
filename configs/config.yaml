@@ -1,4 +1,4 @@
-"""Main configuration file for CNN visualization training."""
+# Main configuration file for CNN visualization training.
 
 defaults:
   - model: simple_cnn

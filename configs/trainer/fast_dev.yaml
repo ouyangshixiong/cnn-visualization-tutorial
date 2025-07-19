@@ -1,4 +1,4 @@
-"""Fast development trainer configuration."""
+# Fast development trainer configuration.
 
 max_epochs: 2
 accelerator: cpu

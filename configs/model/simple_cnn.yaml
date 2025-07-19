@@ -1,4 +1,4 @@
-"""Simple CNN model configuration."""
+# Simple CNN model configuration.
 
 _target_: src.models.pytorch.SimpleCNNClassifier
 num_classes: 10

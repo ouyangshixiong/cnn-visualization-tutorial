@@ -1,4 +1,4 @@
-"""CIFAR-10 dataset configuration."""
+# CIFAR-10 dataset configuration.
 
 _target_: src.datasets.datamodules.CIFAR10DataModule
 data_dir: ./data/cifar10

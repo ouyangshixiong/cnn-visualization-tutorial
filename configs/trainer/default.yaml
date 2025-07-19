@@ -1,4 +1,4 @@
-"""Default trainer configuration."""
+# Default trainer configuration.
 
 max_epochs: 10
 accelerator: auto

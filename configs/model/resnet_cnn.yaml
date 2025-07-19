@@ -1,4 +1,4 @@
-"""ResNet CNN model configuration."""
+# ResNet CNN model configuration.
 
 _target_: src.models.pytorch.ResNetCNNClassifier
 num_classes: 10

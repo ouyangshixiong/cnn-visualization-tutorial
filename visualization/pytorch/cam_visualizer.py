@@ -224,7 +224,7 @@ class ScoreCAM:
             
             # 计算CAM
             cam = np.sum(weights.reshape(-1, 1, 1) * 
-                        upsampled_activations[0].numpy(), axis=0)
+                        upsampled_activations[0].cpu().numpy(), axis=0)
             
             # 归一化
             cam = (cam - cam.min()) / (cam.max() - cam.min() + 1e-8)

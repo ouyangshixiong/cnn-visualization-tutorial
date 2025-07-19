@@ -40,7 +40,8 @@ from visualization.pytorch.cam_visualizer import (
 )
 
 # 配置matplotlib支持中文
-plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial Unicode MS']
+#plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial Unicode MS']
+plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 
 

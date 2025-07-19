@@ -62,7 +62,7 @@ Thumbs.db
 *.bmp
 
 # Models
-models/
+./models/
 *.onnx
 *.pb
 

@@ -22,7 +22,7 @@ docker-compose -f deploy/gpu/docker-compose.yml exec cnn-gpu python scripts/trai
 ### CUDA环境信息
 - **CUDA版本**: 12.6
 - **Ubuntu版本**: 24.04 LTS
-- **PyTorch版本**: 2.3.0
+- **PyTorch版本**: 2.6.0
 - **Python版本**: 3.10
 
 ### 多GPU训练

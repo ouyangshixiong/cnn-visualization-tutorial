@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.3.0-cuda12.6-cudnn8-devel-ubuntu24.04
+FROM pytorch/pytorch:2.6.0-cuda12.6-cudnn9-runtime
 
 WORKDIR /app
 COPY requirements.txt .

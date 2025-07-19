@@ -162,7 +162,7 @@ python scripts/train.py trainer=fast_dev  # 快速验证
 # 新版本环境
 CUDA: 12.6
 Ubuntu: 24.04 LTS  
-PyTorch: 2.3.0+cu126
+PyTorch: 2.6.0+cu126
 Python: 3.10
 NVIDIA驱动: ≥535.x
 ```

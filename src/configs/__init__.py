@@ -1,0 +1,1 @@
+"""Configuration management for CNN visualization."""

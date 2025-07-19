@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  cnn-cpu:
+    build:
+      context: ../..
+      dockerfile: deploy/cpu/Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+    command: python scripts/train.py trainer.accelerator=cpu

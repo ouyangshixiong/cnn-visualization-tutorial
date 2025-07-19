@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  cnn-gpu:
+    build:
+      context: ../..
+      dockerfile: deploy/gpu/Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+      - CUDA_VISIBLE_DEVICES=0
+    runtime: nvidia
+    command: python scripts/train.py trainer.accelerator=gpu

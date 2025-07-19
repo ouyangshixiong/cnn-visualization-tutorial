@@ -1,0 +1,7 @@
+"""ResNet CNN model configuration."""
+
+_target_: src.models.pytorch.ResNetCNNClassifier
+num_classes: 10
+learning_rate: 1e-3
+pretrained: true
+model_name: "resnet18"
